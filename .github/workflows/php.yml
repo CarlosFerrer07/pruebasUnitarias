@@ -12,6 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - uses: php-actions/phpunit@v3
 
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
